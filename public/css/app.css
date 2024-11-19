@@ -13,11 +13,11 @@ header h2, header .h2 {
 }
 
 header span {
-  color: #2832C2;
+  color: #1338BE;
 }
 
 header button {
-  background-color: #2832C2;
+  background-color: #1338BE;
   border-radius: 0.4em;
   width: 8em;
   color: white;
@@ -53,8 +53,11 @@ div ul {
   text-align: center;
 }
 .section1 p {
-  margin: 0;
+  margin: 1em;
   font-size: 16px;
+}
+.section1 span {
+  color: #1338BE;
 }
 
 /*!
