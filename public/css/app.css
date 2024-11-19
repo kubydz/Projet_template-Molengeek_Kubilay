@@ -71,6 +71,11 @@ div ul {
 .section1 span {
   color: #1338BE;
 }
+.section1 .card {
+  display: flex;
+  background-color: red;
+  height: 100PX;
+}
 
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
