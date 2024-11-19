@@ -74,13 +74,18 @@ div ul {
 .section1 span {
   color: #1338BE;
 }
-.section1 .card {
+.section1 span .card-group {
+  display: grid;
+  width: 5em;
+}
+.section1 span .card-group .card {
   display: flex;
   margin-top: 2em;
   height: 280PX;
 }
-.section1 .card .card-group {
-  width: 5em;
+.section1 span .card-group .card img {
+  height: 150px;
+  width: 150px;
 }
 
 .section2 {
