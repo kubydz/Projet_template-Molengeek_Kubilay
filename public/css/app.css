@@ -15,10 +15,10 @@ header h2, header .h2 {
   font-size: 2.9em;
 }
 header span {
-  color: #1338BE;
+  color: #156EEA;
 }
 header button {
-  background-color: #1338BE;
+  background-color: #156EEA;
   border-radius: 0.4em;
   width: 12em;
   color: white;
@@ -62,7 +62,6 @@ div ul {
 .body {
   width: 100%;
 }
-
 .section1 {
   text-align: center;
   height: 30em;
@@ -79,7 +78,7 @@ div ul {
   background-color: rgba(143, 160, 245, 0.2901960784);
 }
 .section1 span {
-  color: #1338BE;
+  color: #156EEA;
 }
 .section1 .container {
   gap: 7em;
@@ -89,7 +88,7 @@ div ul {
   padding-right: 7%;
 }
 .section1 .s1-card div {
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .section1 .s1-card div img {
   width: 20%;
@@ -118,7 +117,7 @@ div ul {
   height: 800px;
 }
 .section3 span {
-  color: #1338BE;
+  color: #156EEA;
 }
 .section3 .badge {
   margin: 1em;
@@ -165,13 +164,13 @@ div ul {
 }
 
 .section4 {
-  background-color: #eae9eb;
+  background-color: rgba(234, 241, 255, 0.9411764706);
   text-align: center;
   justify-content: center;
   height: 600px;
 }
 .section4 span {
-  color: #1338BE;
+  color: #156EEA;
 }
 .section4 .badge {
   margin: 1em;
@@ -185,16 +184,34 @@ div ul {
 .section4 .container {
   justify-content: center;
 }
-.section4 .container h5, .section4 .container .h5 {
+.section4 .container .card-text {
   text-align: start;
 }
 .section4 .container p {
   color: rgba(102, 99, 98, 0.6039215686);
   font-size: 9px;
-  text-align: start;
+  margin-top: 5px;
 }
 .section4 .card {
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.section5 {
+  justify-content: center;
+  text-align: center;
+}
+.section5 h2, .section5 .h2 {
+  color: #156EEA;
+}
+.section5 .badge {
+  margin: 1em;
+  font-size: 16px;
+  border: 1px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgba(143, 160, 245, 0.2901960784);
+  width: 8em;
 }
 
 /*!
@@ -4497,7 +4514,7 @@ textarea.form-control-lg {
   --bs-card-border-width: var(--bs-border-width);
   --bs-card-border-color: var(--bs-border-color-translucent);
   --bs-card-border-radius: var(--bs-border-radius);
-  --bs-card-box-shadow: 0px 0px 10px black;
+  --bs-card-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
   --bs-card-cap-padding-y: 0.5rem;
   --bs-card-cap-padding-x: 1rem;
