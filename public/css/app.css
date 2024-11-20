@@ -167,6 +167,8 @@ div ul {
 .section4 {
   background-color: #eae9eb;
   text-align: center;
+  justify-content: center;
+  height: 600px;
 }
 .section4 span {
   color: #1338BE;
@@ -179,6 +181,20 @@ div ul {
   padding: 10px;
   background-color: rgba(143, 160, 245, 0.2901960784);
   width: 8em;
+}
+.section4 .container {
+  justify-content: center;
+}
+.section4 .container h5, .section4 .container .h5 {
+  text-align: start;
+}
+.section4 .container p {
+  color: rgba(102, 99, 98, 0.6039215686);
+  font-size: 9px;
+  text-align: start;
+}
+.section4 .card {
+  box-shadow: 0px 0px 10px black;
 }
 
 /*!
