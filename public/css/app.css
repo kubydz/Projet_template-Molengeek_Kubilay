@@ -75,17 +75,17 @@ div ul {
   color: #1338BE;
 }
 .section1 span .card-group {
-  display: grid;
-  width: 5em;
+  display: flex;
+  width: 2em;
 }
 .section1 span .card-group .card {
   display: flex;
   margin-top: 2em;
-  height: 280PX;
+  height: 280px;
 }
 .section1 span .card-group .card img {
-  height: 150px;
-  width: 150px;
+  width: 100px;
+  height: 100px;
 }
 
 .section2 {
@@ -99,6 +99,23 @@ div ul {
 .section2 .active {
   width: 100%;
   filter: op;
+}
+
+.section3 {
+  text-align: center;
+  margin-top: 45px;
+}
+.section3 span {
+  color: #1338BE;
+}
+.section3 .badge {
+  margin: 1em;
+  font-size: 16px;
+  border: 1px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgba(143, 160, 245, 0.2901960784);
+  width: 8em;
 }
 
 /*!
