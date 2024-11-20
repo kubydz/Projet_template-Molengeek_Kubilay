@@ -62,9 +62,11 @@ div ul {
 .body {
   width: 100%;
 }
+
 .section1 {
   text-align: center;
   height: 30em;
+  margin-top: 3em;
 }
 .section1 p {
   margin: 1em;
@@ -213,7 +215,6 @@ div ul {
   background-color: rgba(143, 160, 245, 0.2901960784);
   width: 8em;
 }
-
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
