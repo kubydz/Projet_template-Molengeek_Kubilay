@@ -6,7 +6,7 @@ header {
   background-position: center;
 }
 header #titre {
-  margin-left: 18em;
+  padding-left: 18em;
 }
 header h2, header .h2 {
   font-size: 3em;
@@ -59,8 +59,13 @@ div ul {
   color: blue;
 }
 
+.body {
+  width: 100%;
+}
+
 .section1 {
   text-align: center;
+  height: 30em;
 }
 .section1 p {
   margin: 1em;
@@ -68,47 +73,105 @@ div ul {
   border: 1px;
   border-radius: 15px;
   padding: 10px;
-  background-color: rgba(143, 160, 245, 0.2901960784);
   width: 14em;
+}
+.section1 .badge {
+  background-color: rgba(143, 160, 245, 0.2901960784);
 }
 .section1 span {
   color: #1338BE;
 }
-.section1 span .card-group {
-  display: flex;
-  width: 2em;
+.section1 .container {
+  gap: 7em;
 }
-.section1 span .card-group .card {
-  display: flex;
-  margin-top: 2em;
-  height: 280px;
+.section1 .s1-card {
+  padding-left: 7%;
+  padding-right: 7%;
 }
-.section1 span .card-group .card img {
-  width: 100px;
-  height: 100px;
+.section1 .s1-card div {
+  box-shadow: 0px 0px 10px black;
+}
+.section1 .s1-card div img {
+  width: 20%;
+}
+.section1 .s1-card div p {
+  font-size: 0.7em;
 }
 
-.section2 {
-  background-color: rgba(72, 69, 71, 0.3725490196);
+.section2 .carousel-inner {
+  height: 28.5em;
 }
-.section2 h2, .section2 .h2 {
-  padding-top: 1em;
-  text-align: center;
-  justify-content: center;
+.section2 .carousel-inner .carousel-item {
+  filter: brightness(0.3);
 }
-.section2 .active {
-  width: 100%;
-  filter: op;
+.section2 .carousel-inner .carousel-caption {
+  bottom: 6em;
+}
+.section2 .carousel-inner .carousel-caption h2, .section2 .carousel-inner .carousel-caption .h2 {
+  color: blue;
+  padding-bottom: 0.5em;
 }
 
 .section3 {
   text-align: center;
   margin-top: 45px;
+  height: 800px;
 }
 .section3 span {
   color: #1338BE;
 }
 .section3 .badge {
+  margin: 1em;
+  font-size: 16px;
+  border: 1px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgba(143, 160, 245, 0.2901960784);
+  width: 8em;
+}
+.section3 div a {
+  background-color: #E7F1FD;
+  border: none;
+  color: blue;
+  font-size: 0.7em;
+}
+.section3 div h3, .section3 div .h3 {
+  color: txtblack;
+  font-weight: 600;
+}
+.section3 .services-card {
+  padding-left: 7%;
+  padding-right: 7%;
+  flex-wrap: wrap;
+}
+.section3 .services-card .card-body {
+  border: 1px solid #DFEBFD;
+  width: calc(33.333% - 1rem);
+  height: 15em;
+}
+.section3 .services-card .card-body div {
+  height: 2.7em;
+  width: 2.7em;
+  background-color: #F1F6FE;
+  border-block-end-color: #DFEBFD;
+  border-block-start-color: #DFEBFD;
+  border-bottom-color: #DFEBFD;
+}
+.section3 .services-card .card-body .alert {
+  --bs-alert-padding-x:.7em;
+}
+.section3 .services-card .card-body p {
+  font-size: 0.7em;
+}
+
+.section4 {
+  background-color: #eae9eb;
+  text-align: center;
+}
+.section4 span {
+  color: #1338BE;
+}
+.section4 .badge {
   margin: 1em;
   font-size: 16px;
   border: 1px;
@@ -4418,7 +4481,7 @@ textarea.form-control-lg {
   --bs-card-border-width: var(--bs-border-width);
   --bs-card-border-color: var(--bs-border-color-translucent);
   --bs-card-border-radius: var(--bs-border-radius);
-  --bs-card-box-shadow: ;
+  --bs-card-box-shadow: 0px 0px 10px black;
   --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
   --bs-card-cap-padding-y: 0.5rem;
   --bs-card-cap-padding-x: 1rem;

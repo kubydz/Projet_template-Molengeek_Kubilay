@@ -1,5 +1,8 @@
+.body
+    width: 100%
 .section1
     text-align: center
+    height:30em
 
     p 
         margin: 1em
@@ -7,44 +10,55 @@
         border: 1px 
         border-radius: 15px
         padding: 10px
-        background-color: #8fa0f54a
         width: 14em  
-        
+    .badge
+        background-color: #8fa0f54a
     span
         color:  #1338BE
+
+
+    .container
+        gap: 7em
+    .s1-card
+        padding-left: 7%
+        padding-right: 7%
+        
+
+        
+
+        div
+            box-shadow: $card-box-shadow
+        
+        
+            img
+                width: 20%
+                
+            p
+                font-size: .7em
     
 
-        .card-group
-            display: flex
-            width: 2em
+        
             
-
-
-
-            .card
-                display: flex
-                margin-top: 2em
-                height: 280px
-
-                img
-                    width:100px
-                    height: 100px
-                    
-                    
-                
-            
-         
-       
 .section2
-    background-color: #4845475f
+    
 
-    h2
-        padding-top: 1em
-        text-align: center
-        justify-content: center
-    .active
-        width: 100%
-        filter: op
+    
+    .carousel-inner
+            height: 28.5em
+            .carousel-item
+                filter: brightness(.3)
+                // #image
+                //     width: 67%
+                //     transform: translateY(-10%)
+                // #image2
+                //     transform: translateY(-10%)
+            .carousel-caption
+                bottom: 6em
+                h2
+                    color: blue
+                    padding-bottom: .5em
+    
+        
 
 
 
@@ -52,7 +66,57 @@
 .section3
     text-align: center
     margin-top: 45px
+    height:800px
+    
 
+
+    span
+        color: #1338BE
+
+
+    .badge
+        margin: 1em
+        font-size: 16px
+        border: 1px 
+        border-radius: 15px
+        padding: 10px
+        background-color: #8fa0f54a
+        width: 8em  
+    .services
+    div
+        a
+            background-color: #E7F1FD
+            border: none
+            color: blue
+            font-size: .7em
+        h3
+            color: txtblack
+            font-weight: 600
+            
+    
+    .services-card
+        padding-left: 7%
+        padding-right: 7%   
+        flex-wrap: wrap    
+        .card-body
+            border: 1px solid #DFEBFD
+            width: calc(33.333% - 1rem)
+            height: 15em
+            div
+                height: 2.7em
+                width: 2.7em
+                background-color: #F1F6FE
+                border-block-end-color: #DFEBFD
+                border-block-start-color: #DFEBFD
+                border-bottom-color: #DFEBFD
+            .alert
+                --bs-alert-padding-x:.7em                  
+            p
+                font-size: .7em
+
+.section4
+    background-color: #eae9eb
+    text-align: center
 
     span
         color: #1338BE
