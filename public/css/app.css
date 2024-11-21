@@ -67,14 +67,7 @@ div ul {
   text-align: center;
   height: 30em;
   margin-top: 3em;
-}
-.section1 p {
-  margin: 1em;
-  font-size: 16px;
-  border: 1px;
-  border-radius: 15px;
-  padding: 10px;
-  width: 14em;
+  width: 100%;
 }
 .section1 .badge {
   background-color: rgba(143, 160, 245, 0.2901960784);
@@ -83,7 +76,8 @@ div ul {
   color: #156EEA;
 }
 .section1 .container {
-  gap: 7em;
+  gap: 8em;
+  height: 230px;
 }
 .section1 .s1-card {
   padding-left: 7%;
@@ -92,11 +86,15 @@ div ul {
 .section1 .s1-card div {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.section1 .s1-card div h5, .section1 .s1-card div .h5 {
+  align-items: flex-start;
+}
 .section1 .s1-card div img {
   width: 20%;
+  float: left;
 }
 .section1 .s1-card div p {
-  font-size: 0.7em;
+  font-size: 0.81em;
 }
 
 .section2 .carousel-inner {
@@ -106,10 +104,12 @@ div ul {
   filter: brightness(0.3);
 }
 .section2 .carousel-inner .carousel-caption {
-  bottom: 6em;
+  z-index: 2;
+  vertical-align: center;
+  margin-bottom: 110px;
 }
 .section2 .carousel-inner .carousel-caption h2, .section2 .carousel-inner .carousel-caption .h2 {
-  color: blue;
+  color: #156EEA;
   padding-bottom: 0.5em;
 }
 
@@ -218,10 +218,22 @@ div ul {
   width: 8em;
 }
 .section5 .container_contact {
+  width: 65%;
+}
+.section5 .container_contact p {
   color: #a1a1a1;
+}
+.section5 .container_contact {
   height: 600px;
 }
-
+.section5 .contact_case {
+  height: 150px;
+  gap: 3em;
+}
+.section5 .logo {
+  border: dashed 1px #156EEA;
+  border-radius: 75px/75px;
+}
 footer {
   background-color: #dcdcde;
   height: 5em;
